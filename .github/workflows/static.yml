@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আরিয়া সেন | অফিসিয়াল ভেরিফাইড পোর্টফোলিও</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+        
+        :root {
+            --accent: #ff2e63;
+            --gold: #d4af37;
+            --bg: #050505;
+        }
+
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: var(--bg);
+            color: #e5e7eb;
+            overflow-x: hidden;
+        }
+
+        .premium-font {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .blue-tick {
+            color: #1d9bf0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            margin-left: 8px;
+            font-size: 0.6em;
+            filter: drop-shadow(0 0 5px rgba(29, 155, 240, 0.5));
+        }
+
+        .profile-circle {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            padding: 5px;
+            background: linear-gradient(45deg, var(--accent), var(--gold), #8b5cf6);
+            box-shadow: 0 0 30px rgba(255, 46, 99, 0.4);
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .profile-circle img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--bg);
+        }
+
+        .name-container {
+            background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.03);
+            display: inline-block;
+        }
+
+        .glass-panel {
+            background: rgba(20, 20, 20, 0.7);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .glass-panel:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+            background: rgba(30, 30, 30, 0.8);
+        }
+
+        .info-pill {
+            background: rgba(255, 46, 99, 0.1);
+            border: 1px solid rgba(255, 46, 99, 0.2);
+            color: #ff4d7d;
+            padding: 4px 12px;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .bg-glow {
+            position: fixed;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255, 46, 99, 0.1) 0%, transparent 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .post-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .post-card img {
+            transition: transform 0.6s ease;
+        }
+
+        .post-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="bg-glow top-0 left-0"></div>
+    <div class="bg-glow bottom-0 right-0"></div>
+
+    <!-- Hero Section -->
+    <header class="pt-24 pb-12 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="profile-circle mb-8">
+                <img src="https://i.ibb.co.com/WpqyN4QP/IMG-20260307-031913.jpg" alt="Aria Sen Profile" onerror="this.src='https://ui-avatars.com/api/?name=Aria+Sen&background=ff2e63&color=fff'">
+                <div class="absolute -bottom-2 right-4 bg-green-500 w-5 h-5 rounded-full border-4 border-black" title="Online"></div>
+            </div>
+
+            <div class="name-container mb-6">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-2 tracking-tight">
+                    আরিয়া সেন 
+                    <span class="blue-tick" title="Verified Creator">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </span>
+                </h1>
+                <p class="premium-font italic text-rose-500 text-xl md:text-2xl opacity-90">Aria Sen</p>
+            </div>
+            
+            <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                <span class="text-white font-semibold">Erotic & Adult Fiction Writer</span> <br> 
+                পেশাদার বাংলা ১৮+ কন্টেন্ট ক্রিয়েটর ও গল্পকার।
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+                <div class="glass-panel p-4 rounded-2xl">
+                    <i class="fa-solid fa-graduation-cap text-rose-500 mb-2 text-xl"></i>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest">পড়াশোনা</p>
+                    <p class="text-sm font-bold text-white">অনার্স ২য় বর্ষ (ছাত্রী)</p>
+                </div>
+                <div class="glass-panel p-4 rounded-2xl">
+                    <i class="fa-solid fa-university text-rose-500 mb-2 text-xl"></i>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest">কলেজ</p>
+                    <p id="college-name" class="text-sm font-bold text-white">ঢাকা সিটি কলেজ</p>
+                </div>
+                <div class="glass-panel p-4 rounded-2xl">
+                    <i class="fa-solid fa-location-dot text-rose-500 mb-2 text-xl"></i>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest">ঠিকানা</p>
+                    <p class="text-sm font-bold text-white">ঢাকা, বাংলাদেশ</p>
+                </div>
+                <div class="glass-panel p-4 rounded-2xl">
+                    <i class="fa-solid fa-cake-candles text-rose-500 mb-2 text-xl"></i>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest">বয়স</p>
+                    <p class="text-sm font-bold text-white">২০ বছর</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 pb-24 space-y-16">
+        
+        <section class="glass-panel p-8 md:p-12 rounded-[40px] relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-8 opacity-5">
+                <i class="fa-solid fa-feather-pointed text-9xl"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                <span class="w-10 h-1 bg-rose-600 rounded-full"></span> 
+                আমার কথা
+            </h2>
+            <p class="text-gray-300 text-lg leading-relaxed text-justify">
+                আমি আরিয়া সেন। একজন স্বাধীনচেতা লেখক হিসেবে আমি মানুষের মনস্তত্ত্ব এবং অবদমিত আকাঙ্ক্ষাগুলোকে গল্পের মাধ্যমে জীবন্ত করতে পছন্দ করি। গত কয়েক বছরে আমার <strong class="text-rose-500">"Porn Story by Aria Sen"</strong> ব্লগে ২০০+ গল্প প্রকাশিত হয়েছে। আমি শুধুমাত্র একজন লেখক নই, বরং একজন স্টোরিটেলার যে পাঠকদের কল্পনাকে নতুন মাত্রা দিতে জানে।
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-6">
+                <h3 class="text-xl font-bold text-white">বিশেষ পারদর্শিতা:</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="info-pill">সিরিজ স্টোরি (Miss Rita)</span>
+                    <span class="info-pill">লেসবিয়ান ফ্যান্টাসি</span>
+                    <span class="info-pill">পরকীয়া ও ড্রামা</span>
+                    <span class="info-pill">ফ্যামিলি ফিকশন</span>
+                    <span class="info-pill">ভাইরাল কন্টেন্ট</span>
+                </div>
+            </div>
+            <div class="glass-panel p-6 rounded-3xl flex justify-between items-center px-10">
+                <div>
+                    <h4 class="text-4xl font-black text-rose-500">২০০+</h4>
+                    <p class="text-gray-500 text-sm">পাবলিশড কন্টেন্ট</p>
+                </div>
+                <div class="text-right">
+                    <h4 class="text-4xl font-black text-rose-500">১ম</h4>
+                    <p class="text-gray-500 text-sm">পছন্দের গল্পকার</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🔥 জনপ্রিয় পোস্ট Section -->
+        <section class="glass-panel p-8 md:p-12 rounded-[40px]">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <span class="w-10 h-1 bg-rose-600 rounded-full"></span> 
+                🔥 জনপ্রিয় পোস্টসমূহ
+            </h2>
+            <div id="posts-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="col-span-full flex flex-col items-center justify-center py-12 text-gray-400">
+                    <i class="fa-solid fa-spinner fa-spin text-4xl text-rose-500 mb-4"></i>
+                    <span>গল্পগুলো খুঁজে আনছি...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Official Buttons -->
+        <section class="space-y-6">
+            <h3 class="text-2xl font-bold text-center text-white italic">Connect Directly</h3>
+            <div class="flex flex-col md:flex-row gap-4">
+                <a href="https://aria-sen-porn-story.blogspot.com/" target="_blank" 
+                   class="flex-1 group relative overflow-hidden bg-white text-black py-5 rounded-2xl font-black text-center transition-all hover:bg-rose-500 hover:text-white transform active:scale-95">
+                    <span class="relative z-10 flex items-center justify-center gap-3">
+                        <i class="fa-solid fa-bookmark"></i> আমার অফিসিয়াল ব্লগ
+                    </span>
+                </a>
+                <a href="https://www.facebook.com/share/1DrffNoH9E/" target="_blank" 
+                   class="flex-1 group relative overflow-hidden bg-[#1877F2] text-white py-5 rounded-2xl font-black text-center transition-all hover:bg-[#166fe5] shadow-xl shadow-blue-600/20 transform active:scale-95">
+                    <span class="relative z-10 flex items-center justify-center gap-3">
+                        <i class="fa-brands fa-facebook"></i> অফিসিয়াল ফেসবুক
+                    </span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-12 border-t border-white/5 text-center">
+        <div class="mb-4 text-rose-500 text-xl font-bold premium-font italic">Aria Sen Official</div>
+        <p class="text-gray-600 text-[10px] tracking-[0.5em] uppercase">&copy; 2026 All Rights Reserved</p>
+    </footer>
+
+    <script>
+        const BLOG_URL = "https://aria-sen-porn-story.blogspot.com";
+
+        // ✅ JSONP Callback — Blogger directly calls this function
+        function handleBloggerFeed(data) {
+            const container = document.getElementById("posts-list");
+            const entries = data.feed.entry || [];
+
+            if (entries.length === 0) {
+                container.innerHTML = `<div class="col-span-full text-center py-10 text-gray-500">কোনো পোস্ট পাওয়া যায়নি।</div>`;
+                return;
+            }
+
+            container.innerHTML = "";
+
+            entries.forEach(entry => {
+                const title = entry.title.$t;
+                const linkObj = entry.link.find(l => l.rel === "alternate");
+                const link = linkObj ? linkObj.href : BLOG_URL;
+
+                // Thumbnail extraction
+                let thumbUrl = "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=400&auto=format&fit=crop";
+                if (entry.media$thumbnail) {
+                    thumbUrl = entry.media$thumbnail.url.replace(/\/s[0-9]+-c\//, "/s640/").replace("s72-c", "s640");
+                } else if (entry.content && entry.content.$t) {
+                    const match = entry.content.$t.match(/<img[^>]+src=["']([^"'>]+)["']/);
+                    if (match) thumbUrl = match[1];
+                }
+
+                const card = `
+                    <a href="${link}" target="_blank" class="post-card group glass-panel rounded-3xl overflow-hidden border border-white/5 hover:border-rose-500/50">
+                        <div class="relative overflow-hidden aspect-[4/3]">
+                            <img src="${thumbUrl}" alt="${title}" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=400&auto=format&fit=crop'">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60"></div>
+                        </div>
+                        <div class="p-5 flex flex-col flex-grow">
+                            <h4 class="text-white font-medium text-md mb-4 line-clamp-3 leading-snug group-hover:text-rose-400 transition-colors">
+                                ${title}
+                            </h4>
+                            <div class="mt-auto flex items-center justify-between">
+                                <span class="text-[10px] font-bold text-rose-500 uppercase tracking-tighter">Popular Story</span>
+                                <div class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-rose-500 transition-colors">
+                                    <i class="fa-solid fa-arrow-right text-[10px] text-white"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                `;
+                container.innerHTML += card;
+            });
+        }
+
+        function showError() {
+            document.getElementById("posts-list").innerHTML = `
+                <div class="col-span-full text-center py-12 text-gray-400">
+                    <i class="fa-solid fa-circle-exclamation text-3xl mb-3 text-rose-900"></i>
+                    <p class="text-sm mb-2">গল্পগুলো লোড হয়নি।</p>
+                    <a href="${BLOG_URL}" target="_blank" class="text-rose-500 underline mt-2 inline-block">সরাসরি ব্লগে যান</a>
+                </div>`;
+        }
+
+        function fetchPopularPosts() {
+            // Remove any previous script tag
+            const old = document.getElementById("blogger-jsonp");
+            if (old) old.remove();
+
+            // Timeout fallback — if 8 seconds pass with no response, show error
+            const timeout = setTimeout(showError, 8000);
+
+            // Wrap callback to clear timeout
+            window._bloggerFeedLoaded = function(data) {
+                clearTimeout(timeout);
+                handleBloggerFeed(data);
+            };
+
+            const script = document.createElement("script");
+            script.id = "blogger-jsonp";
+            script.src = `${BLOG_URL}/feeds/posts/default?alt=json&max-results=6&callback=_bloggerFeedLoaded`;
+            script.onerror = () => {
+                clearTimeout(timeout);
+                showError();
+            };
+            document.body.appendChild(script);
+        }
+
+        window.addEventListener('DOMContentLoaded', fetchPopularPosts);
+    </script>
+</body>
+</html>
